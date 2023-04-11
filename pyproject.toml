@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-utils-classification"
+version = "0.1.0"
+description = "A package with utils for solving classification problems using Python"
+authors = ["awsmdrew <kyryllov.andrii@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_utils_classification"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+xgboost = "^1.7.5"
+scikit-learn = "^1.2.2"
+logger = "^1.4"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+sqlalchemy = "^2.0.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
